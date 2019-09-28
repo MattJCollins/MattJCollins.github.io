@@ -15,7 +15,7 @@ a {
 	position: absolute;
 	top: 35%;
 	left: 19%;
-	background:#FBBF66;
+	background:#FBBF50;
 	color: black;
 	margin: 5px 200px 15px 200px;
 	padding: 10px;
@@ -35,7 +35,7 @@ a {
 	position: absolute;
 	top: 35%;
 	left: 19%;
-	background:#007acc;
+	background:#275e91;
 	color: white;
 	margin: 5px 200px 15px 200px;
 	padding: 10px;
@@ -100,7 +100,7 @@ h3 {
 	position: absolute;
 	height: 233.31px;
 	width: 350px;
-	margin: 120px 0px 0px 50px;
+	margin: 130px 0px 0px 50px;
 	display: inline;
 	border-radius: 7px;
 	transform: rotate(-90deg);
