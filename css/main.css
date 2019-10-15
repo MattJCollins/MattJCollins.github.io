@@ -11,36 +11,6 @@ p {
 a {
 	color: #228B22;
 }
-.about {
-	position: absolute;
-	top: 35%;
-	left: 19%;
-	background:#FBBF50;
-	color: black;
-	margin: 5px 200px 15px 200px;
-	padding: 10px;
-}
-.contact {
-	position: absolute;
-	top: 35%;
-	left: 19%;
-	background: white;
-	color: black;
-	margin: 5px 200px 15px 200px;
-	padding: 10px;
-	width: 43%;
-	text-align: center;
-}
-.experiences {
-	position: absolute;
-	top: 35%;
-	left: 19%;
-	background:#275e91;
-	color: white;
-	margin: 5px 200px 15px 200px;
-	padding: 10px;
-}
-
 header {
 	background: transparent;
 	color: black;
@@ -61,17 +31,7 @@ h2 {
 	top: 28%;
 	left: 58%;
 	font-size:17px;
-	color: #777;
-}
-.shad {
-	position: absolute;
-	top: 28%;
-	left: 53%;
-}
-.contactme {
-	position: absolute;
-	top: 28%;
-	left: 38%;
+	color: #555;
 }
 h3 {
 	position: absolute;
@@ -79,11 +39,91 @@ h3 {
 	left: 45%;
 	font-size: 56px;
 }
+nav ul {
+	display: inline;
+}
+nav ul li {
+	position: relative;
+	right: 4%;
+	display: inline-block;
+	list-style-type: none;
+	padding: 2px 10px;
+	float: right;
+	margin: 0 5px 0 0;
+}
+nav ul li .btn:link, .btn:visited {
+	color: white;
+	background: #999;
+	border-radius: 7px;
+	border: 1px solid white;
+	padding: 5px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav ul li .btn:hover {
+	color: black;
+	background: white;
+	border-radius: 7px;
+	border: 1px solid white;
+	padding: 5px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition-duration: 0.3s;
+}
+.about {
+	position: absolute;
+	top: 35%;
+	left: 19%;
+	background:#e6f5ff;
+	color: black;
+	margin: 5px 200px 15px 200px;
+	padding: 10px;
+}
+.contact {
+	position: absolute;
+	top: 35%;
+	left: 15%;
+	background: white;
+	color: black;
+	margin: 5px 200px 15px 200px;
+	padding: 10px;
+	width: 35%;
+	text-align: center;
+}
+.contactme {
+	position: absolute;
+	top: 82%;
+	left: 56%;
+	color: white;
+	-webkit-text-stroke: 1px black;
+}
+.titlecontact {
+	position: absolute;
+	top: 11%;
+	left: 38%;
+	font-size: 56px;
+}
+.experiences {
+	position: absolute;
+	top: 35%;
+	left: 19%;
+	background:#275e91;
+	color: white;
+	margin: 5px 200px 15px 200px;
+	padding: 10px;
+}
+
+
+.shad {
+	position: absolute;
+	top: 28%;
+	left: 53%;
+}
 .background {
 	position: absolute;
 	height: 91%;
 	width: 99.7%;
-	z-index: -1;
+	z-index: -99;
 	border-radius: 22px 22px 0 0;
 	border: 2px solid black;
 	margin: 0px;
@@ -125,72 +165,18 @@ h3 {
 }
 .github {
 	position: absolute;
-	left: 43%;
+	left: 36%;
 	top: 55%;
-	height: 100px;
-	width: 100px;
-}
-.LinkedIn {
-	position: absolute;
-	left: 62.55%;
-	top: 54.3%;
 	height: 110px;
 	width: 110px;
 }
-.circle {
-  position: absolute;
-  left: 42.55%;
-  top: 54.2%;
-  height: 110px;
-  width: 110px;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 50%;
-  z-index: -1;
+.LinkedIn {
+	position: absolute;
+	left: 55%;
+	top: 55%;
+	height: 110px;
+	width: 110px;
 }
-.circle2 {
-  position: absolute;
-  left: 62.55%;
-  top: 54.2%;
-  height: 110px;
-  width: 110px;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 50%;
-  z-index: -1;
-}
-nav ul {
-	display: inline;
-}
-nav ul li {
-	position: relative;
-	right: 4%;
-	display: inline-block;
-	list-style-type: none;
-	padding: 2px 10px;
-	float: right;
-	margin: 0 5px 0 0;
-}
-nav ul li .btn:link, .btn:visited {
-	color: white;
-	background: #999;
-	border-radius: 7px;
-	border: 1px solid white;
-	padding: 5px 15px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-nav ul li .btn:hover {
-	color: black;
-	background: white;
-	border-radius: 7px;
-	border: 1px solid white;
-	padding: 5px 15px;
-	text-decoration: none;
-	text-transform: uppercase;
-	transition-duration: 0.3s;
-}
-
 .row:after {
 	clear: both;
 }
