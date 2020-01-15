@@ -1,5 +1,5 @@
 body {
-	background: white;
+	background: #b0e0e6;
 	font-family: sans-serif;
 	margin: 0;
 	margin-top: 4%;
@@ -9,7 +9,7 @@ p {
 	border: 1px solid black;
 }
 a {
-	color: #228B22;
+	color: #b0e0e6;
 }
 header {
 	background: transparent;
@@ -28,8 +28,8 @@ h1 {
 }
 h2 {
 	position: absolute;
-	top: 28%;
-	left: 58%;
+	top: 55%;
+	left: 40%;
 	font-size:17px;
 	color: #555;
 }
@@ -39,6 +39,30 @@ h3 {
 	left: 45%;
 	font-size: 56px;
 }
+
+h4 {
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	font-size: 90px;
+}
+
+h5 {
+	position: absolute;
+	top: 5%;
+	left: 43%;
+	font-size: 30px;
+}
+
+.rectangle {
+	height: 3px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	top: 9%;
+}
+
+
 nav ul {
 	display: inline;
 }
@@ -79,10 +103,10 @@ nav ul li .btn:hover {
 	margin: 5px 200px 15px 200px;
 	padding: 10px;
 }
-.contact {
+.athletics {
 	position: absolute;
-	top: 35%;
-	left: 15%;
+	top: 75%;
+	left: 17.4%;
 	background: white;
 	color: black;
 	margin: 5px 200px 15px 200px;
@@ -138,41 +162,119 @@ nav ul li .btn:hover {
 }
 .profile {
 	position: absolute;
-	height: 233.31px;
+	height: 350px;
 	width: 350px;
-	margin: 130px 0px 0px 50px;
+	margin: 90px 0px 0px 30px;
 	display: inline;
 	border-radius: 7px;
-	transform: rotate(-90deg);
+	border: 3px solid black;
 }
-.PEI {
+
+.guinness {
 	position: absolute;
-	top: 5%;
-	height: 275px;
-	width: 370px;
-	margin: 140px 0px 0px 50px;
+	right: 40%;
+	top: 0%;
+	height: 350px;
+	width: 550px;
+	margin: 100px 0px 0px 50px;
 	display: inline;
 	border-radius: 7px;
 }
-.rainbow {
+
+.kevin_goalie {
 	position: absolute;
-	top: 12%;
-	height: 250px;
-	width: 350px;
-	margin: 120px 0px 0px 50px;
+	right: 27%;
+	top: 0%;
+	height: 350px;
+	width: 550px;
+	margin: 100px 0px 0px 50px;
+	display: inline;
+	border-radius: 7px;
+	border: 3px solid black;
+
+}
+
+.smithwicks {
+	position: absolute;
+	right: 20%;
+	top: 15%;
+	height: 400px;
+	width: 250px;
+	margin: 100px 0px 0px 50px;
 	display: inline;
 	border-radius: 7px;
 }
+
+.jameson_whiskey {
+	position: absolute;
+	right: 43%;
+	top: 1%;
+	height: 500px;
+	width: 290px;
+	margin: 100px 0px 0px 50px;
+	display: inline;
+	border-radius: 7px;
+}
+
+.jameson_logo {
+	position: absolute;
+	right: 3%;
+	top: 1%;
+	width: : 400px;
+	height: 200px;
+	margin: 100px 0px 0px 50px;
+	display: inline;
+	border-radius: 7px;
+	z-index: -1;
+}
+
+.murphys {
+	position: absolute;
+	right: 70%;
+	top: 1%;
+	width: : 400px;
+	height: 200px;
+	margin: 100px 0px 0px 50px;
+	display: inline;
+	border-radius: 7px;
+	z-index: -1;
+}
+
+.kevin_young {
+	position: absolute;
+	right: 65.5%;
+	top: 0%;
+	width: 220px;
+	height: 350px;
+	margin: 100px 100px 100px 50px;
+	display: inline;
+	border-radius: 7px;
+	border: 3px solid black;
+}
+
+.kevin_net {
+	position: absolute;
+	left: 72%;
+	top: 0%;
+	width: 220px;
+	height: 350px;
+	margin: 100px 100px 100px 50px;
+	display: inline;
+	border-radius: 7px;
+	border: 3px solid black;
+}
+
 .github {
 	position: absolute;
-	left: 36%;
+	left: 85%;
 	top: 55%;
 	height: 110px;
 	width: 110px;
 }
+
 .LinkedIn {
 	position: absolute;
-	left: 55%;
+	left: 7%;
 	top: 55%;
 	height: 110px;
 	width: 110px;
@@ -180,18 +282,9 @@ nav ul li .btn:hover {
 .row:after {
 	clear: both;
 }
-/*.col {
-	background: #444;
-	float: left;
-	margin: 1%;
-	width: 30%;
-	border-radius: 5px;
-	border: 1px solid black;
-	padding: 0.5%
-}*/
 footer {
 	position: absolute;
-	top: 90%;
+	top: 95%;
 	left: 90%;
 	text-align: center;
 	padding: 5px;
